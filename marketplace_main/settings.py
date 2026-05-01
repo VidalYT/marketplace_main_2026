@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 ]
 
 AUTH_USER_MODEL = 'marketplace.User'
+AUTH_USER_MODEL = 'store.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
